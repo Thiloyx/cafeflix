@@ -1,0 +1,238 @@
+:root {
+    --azul-marinho: rgb(11, 11, 133);  
+    --preta: black;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+/*elementos base*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+background: var(--preta);
+font-family: 'Times New Roman', Times, serif;
+color: white;
+}
+
+header .container{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--azul-marinho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/* receitas */
+.receitas .container .px{
+    display: flex;
+   
+
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.receitas{
+    height: 600px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("../img4/doce.jpg");
+    
+    background-size: 100%, 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+   
+.receitas .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.receitas .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*serie principal*/
+.series .container .px{
+    display: flex;
+   
+
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    
+}
+.series{
+    height: 600px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("../img/place.jpg");
+    
+    background-size: 100%, 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+   
+.series .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.series .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* filmes principais */
+.filmes .container .px{
+    display: flex;
+   
+
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    
+}
+.filmes{
+    height: 600px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("../img2/animado.jpg");
+    
+    background-size: 100%, 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+  
+}
+
+.filmes .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.filmes .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.botao{
+    text-decoration: none;
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 2s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao .i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filmes .container{
+    width: 70%;
+}
+
+.box-serie{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-series{
+    margin-top: 5px;
+}
+
+.series .container .px{
+    display: flex;
+   
+
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    
+}
+
+/* livros */
+
+.livros .container .px{
+    display: flex;
+   
+
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.livros{
+    height: 600px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("../img3/duna.jpg");
+    
+    background-size: 100%, 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+   
+.livros .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.livros .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
